@@ -1,0 +1,46 @@
+* { font-family: "Orbitron", sans-serif; }
+window { background: #080d14; color: #e2edf4; font-size: 14px; }
+headerbar { background: #0b121b; border-bottom: 1px solid #20333f; min-height: 24px; }
+.title-error { color: #ff9191; font-size: 10px; font-weight: 700; letter-spacing: .4px; }
+.sidebar-scroll { background: #0b111a; border-right: 1px solid #20313d; }
+.sidebar { background: #0b111a; padding: 10px 16px; }
+.brand { font-size: 20px; font-weight: 900; letter-spacing: 4px; }
+.eyebrow { font-size: 10px; font-weight: 600; letter-spacing: 1.4px; color: #70c8d5; }
+.main { padding: 26px; }
+.uptime-panel { padding: 8px 0; }
+.uptime-name { font-size: 16px; font-weight: 700; }
+.uptime-state { font-size: 18px; font-weight: 800; min-width: 70px; }
+.health-loading { color: #92a6b8; }
+.health-up { color: #42e3f2; }
+.health-down { color: #ff818b; }
+.muted { color: #92a6b8; font-size: 12px; }
+.host-strip { background: linear-gradient(105deg, #0b2632, #101925); border: 1px solid #205164; border-left: 3px solid #3de5f5; border-radius: 9px; padding: 16px 20px; margin: 7px 0; }
+.host-ip { font-size: 21px; font-weight: 700; }
+.card { background: linear-gradient(145deg, #121e2b, #0e1621); border: 1px solid #233544; border-radius: 10px; padding: 18px; }
+.card:hover { border-color: #32889a; }
+.card-title { font-size: 22px; font-weight: 700; }
+.badge { color: #50d5e5; font-size: 10px; letter-spacing: 1px; }
+button { background: #152331; color: #c9dce7; border: 1px solid #2a4152; border-radius: 6px; padding: 9px 9px; box-shadow: none; }
+button:hover { background: #203849; border-color: #48c5d7; }
+button.accent { background: #42e3f2; color: #071117; border-color: #42e3f2; font-weight: 700; }
+button.accent:hover { background: #86f4ff; }
+button:disabled { opacity: 0.45; }
+button.nav { background: transparent; border-color: transparent; padding: 8px 8px; }
+button.nav.selected { background: #12303b; color: #53e7f6; border-color: #205061; }
+.metric-server { background: #0e1924; border: 1px solid #203746; border-radius: 7px; padding: 8px 10px; margin-top: 3px; }
+.metric-server-title { color: #d8e8ef; font-size: 12px; font-weight: 700; }
+.metric-name { color: #789aaa; font-size: 9px; letter-spacing: 1px; margin-top: 2px; }
+.metric-value { color: #c8dce5; font-size: 10px; font-weight: 700; }
+.metric-state { color: #6f8b98; font-size: 9px; }
+progressbar.metric-bar trough { min-height: 7px; background: #182631; border-radius: 5px; }
+progressbar.metric-bar progress { min-height: 7px; background: #486372; border-radius: 5px; }
+progressbar.metric-bar.metric-active progress { background: #42e3f2; }
+progressbar.metric-bar.metric-warning progress { background: #ff818b; }
+entry, searchentry, passwordentry { background: #0b141f; color: #e2edf4; border: 1px solid #294354; border-radius: 6px; padding: 10px; }
+entry:focus, searchentry:focus-within { border-color: #42e3f2; }
+.status { color: #8cb9c7; font-size: 12px; padding: 6px 0; }
+.error { color: #ff9191; }
+.dialog-content { padding: 24px; }
+.resource { background: #111d29; border: 1px solid #263c4c; border-radius: 8px; padding: 14px; }
+.resource-title { font-weight: 700; font-size: 16px; }
+separator { background: #243541; margin: 9px 0; }

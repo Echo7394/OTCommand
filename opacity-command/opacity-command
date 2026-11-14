@@ -1,0 +1,4 @@
+#!/bin/sh
+# Cairo suits this machine's older Intel GPU and keeps the dashboard lean.
+export GSK_RENDERER="${GSK_RENDERER:-cairo}"
+exec /usr/bin/python3 /home/cspires/Projects/opacity-command/app.py "$@"
